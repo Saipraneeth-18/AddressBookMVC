@@ -13,6 +13,7 @@ public class Contact {
         this.address = address;
     }
 
+    // Getters and Setters
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
 
@@ -27,6 +28,7 @@ public class Contact {
 
     @Override
     public String toString() {
-        return "Name: " + name + ", Phone: " + phoneNumber + ", Email: " + email + ", Address: " + address;
+        return "Name: " + name + ", Phone: " + phoneNumber + 
+               ", Email: " + email + ", Address: " + address;
     }
 }
